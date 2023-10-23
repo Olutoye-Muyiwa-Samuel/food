@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.head{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: brown; */
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.head ul{
+    display: flex; 
+}
+.head ul li{
+    margin-left: 15px;
+    font-size: 12px;
+    padding-top: 30px;
+}
+.img1{
+    /* padding-top: 20px; */
+    /* padding-left: 60px; */
+}
+.allhead{
+    background-color: antiquewhite;
+}
+.banner{
+    margin-top: 3rem;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: white;
+    padding: 50px 70px;
+    text-align: center;
+    width: 500px;
+    margin: 4rem auto;
+}
+
+#sec1{
+    height: 100vh;
+    /* background-color: blue; */
+    background-image: url(top-view-table-full-delicious-food.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+input{
+    width: 400px;
+    padding: .7rem;
+    outline: none;
+    border: .5px solid black;
+}
+h4{
+    color: rgb(148, 146, 146);
+    font-weight: lighter;
+}
+h1{
+    padding: 30px 0;
+    font-weight: lighter;
+    font-size: 40px;
+}
+button{
+    margin-top: 30px;
+    background-color: brown;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+}
+.we{
+    /* font-size: 100px; */
+    text-align: center;
+    margin-top: 5rem;
+    /* color: rgb(148, 146, 146); */
+    font-size: 15px;
+}
+.allimg{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    justify-content: center;
+}
+.allimg img{
+    width: 220px;
+    padding: 0 3px;
+    /* box-shadow: 0px 10px 15px rgba(94, 94, 94, .2); */
+}
+#sec2{
+    background-color: whitesmoke;
+    
+}
+.galic{
+    font-size: 25px;
+    padding: 1.5rem 0px;
+}
+.allfood{
+    width: 30%;
+    /* border: 3px solid black; */
+    text-align: center;
+    margin-top: 3rem;
+}
+.ALL{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    padding-top: 1rem;
+    text-decoration: none;
+}
+.lorem{
+    color: rgb(120, 119, 119);
+    padding-bottom: 60px;
+}
+.best{
+    text-align: center;
+    padding: 50px 0px;
+    font-weight: bold;
+    
+}
+.bestres{
+    width: 32%;
+    position: relative;
+    /* border: 2px solid red; */
+    height: 500px;
+    overflow: hidden;
+}
+.allbest{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.texts{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+    color: white;
+    /* align-items: center; */
+    width: 100%
+}
+.john{
+    padding: 15px 0 ;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.johnres{
+/* font-weight: bold; */
+font-size: 20px;
+}
+
+
+.date{
+font-weight: bold;
+font-size: 20px;
+}
+.bestres img:hover{
+    transform: scale(1.1);
+}
+.bestres img{
+    transition: 0.5s;
+}
+
+
+
+
+.banner2{
+    /* margin-top: rem; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: #805843;
+    padding: 50px 0 70px 0;
+    text-align: center;
+    margin: 1.5rem auto;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+}
+.bannerfood{
+    color: white;
+}
+.joinfood{
+    color: white;
+}
+button{
+    margin-top: 30px;
+    background-color: #a3765d;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+  
+}
+.bannerlogo img{
+    position: absolute;
+    width: 70rem;
+    left: 2rem;
+    top: 16rem;
+    opacity: 0.3;
+}
+.feature{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+
+}
+
+.feature2{
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 25px;
+    color: rgb(66, 62, 62);
+    font-family: sans-serif;
+    
+}
+.perfect i {
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: white;
+    /* text-align: center; */
+    width: 100%;
+    transform: translateY(-50%);
+}
+.perfect{
+    position: relative;
+    /* border: 5px solid red; */
+    width:19rem;
+}
+.perfect img{
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+.allperfect > i{
+    color: gold;
+    padding: 0 2px;
+}
+.allperfect{
+    text-align: center;
+    width: 19rem;
+}
+.allperfect p {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 20px 0;
+}
+.flexperfect{
+ display: flex;
+ justify-content: space-between;
+ width: 95%;
+ margin: 0 auto;
+ padding-top: 25px;
+}
+.abt{
+    /* padding-left: 10rem; */
+    padding-top: 5rem;
+}
+.Hello img{
+    border-radius: 50%;
+    width: 35%;
+
+}
+.Hello{
+    display: flex;
+    /* width: 80%; */
+    /* margin: 0 auto; */
+    justify-content: space-between;
+}
+.visit{
+    width:60% ;
+    /* border: 5px solid red; */
+}
+#about{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+#about > h1{
+    font-size: 25px;
+}
+.visit h1 {
+    font-size: 23px;
+    font-weight: bold;
+}
+#seclast{
+    height: 60vh;
+    /* background-color: blue; */
+    background-image: url(blog-08.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    /* padding-top: 10rem; */
+}
+.allyou{
+    text-align: center;
+    color: white;
+}
+.allyou p{
+    /* padding-top: 30px; */
+}
+.owner{
+    padding-top: 5rem;
+}
+.contact{
+    padding-top: 20px;
+    font-size: 40px;
+}
+#last{
+    background-color: black;
+}
+.work24 ul{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    /* width: 50%; */
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.work24 a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.work24 :hover{
+    color: #a3765d;
+}
+.work24{
+    padding-bottom: 5rem;
+}
+.lasticon i{
+    color: white;
+    padding-left: 10px;
+}
+.lastsec{
+    color: white;
+    text-align: center;
+}
+.lastimg{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.Copyright{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
